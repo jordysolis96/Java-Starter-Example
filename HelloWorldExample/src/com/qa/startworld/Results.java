@@ -1,7 +1,5 @@
 package com.qa.startworld;
 
-import com.qa.startworld.javabasics.array.Grind;
-
 public class Results {
 	
 	public static double Physics = 130;
@@ -15,6 +13,8 @@ public class Results {
 		System.out.println("Chemistry Marks: " + Chemistry);
 		System.out.println("Biology Marks: " + Biology);
 		System.out.println("total Marks: " + total);
+		
+	}
 	
 			
 	public static double ExamOverall() {
