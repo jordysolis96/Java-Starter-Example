@@ -4,7 +4,30 @@ public class Runner {
 	public static void main(String[] arg) {
 		System.out.print(Calculator.add(2, 4));
 		Runner.FizzBuzz();
+		
+		int[] array = new int[10];
+		System.out.println(array);
 	}
+	
+	
+	public static void populateArray() {
+	System.out.println("Starting task");
+	
+	int [] array = new int[10]; 
+		
+	for(int x = 0; x < array.length; x++) {
+		array[x] = x + 1;
+		System.out.print(array[x] + " ");
+	}
+	
+	System.out.print("");
+	
+	for(int x = 0; x < array.length; x ++) {
+		array[x] *= 10;
+		System.out.print(array[x] + " ");
+	}
+}
+
 	
 	public static int Flowcharts(int num, int num2, boolean bool) {
 		if(bool == true) {
@@ -77,5 +100,7 @@ public class Runner {
 			}
 		}
 	}
+	
+	
 	
 }
