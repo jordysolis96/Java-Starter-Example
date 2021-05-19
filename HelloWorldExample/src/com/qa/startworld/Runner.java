@@ -7,6 +7,7 @@ public class Runner {
 		
 		int[] array = new int[10];
 		System.out.println(array);
+		
 	}
 	
 	
