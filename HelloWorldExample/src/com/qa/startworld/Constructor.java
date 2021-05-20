@@ -2,10 +2,18 @@ package com.qa.startworld;
 
 public class Constructor {
 	
+	public static void main(String[] args) {
+		Person per = new Person("milo", 18, "male");
+		Book book = new Book("title", 16, "Edition");
+		
+		System.out.print(book);
+		
+
+	}
 
 	public class Person {
 	
-		
+				
 		public String name; //
 		public int age; //
 		public String gender; //
@@ -45,6 +53,33 @@ public class Constructor {
 			this.pages = pages;
 			this.genre = genre;
 		}
+	}
+	
+	public class Book {
+	    
+	    // Attributes
+	    public String title;
+	    public String author;
+	    public String genre;
+	    public String edition;
+	    public int pageCount;
+	    public boolean isOpen;
+	    
+	    // Constructor
+	    public Book(String title, int pageCount, String edition) {
+	        this.title = title;
+	        this.pageCount = pageCount;
+	        this.edition = edition;
+	    }
+	    
+	    // Methods
+	    public void open() {
+	        this.isOpen = true;
+	    }
+	    
+	    public void close() {
+	        this.isOpen = false;
+	    }
 	}
 
 	
