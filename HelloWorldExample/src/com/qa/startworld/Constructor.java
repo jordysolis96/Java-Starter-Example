@@ -3,10 +3,6 @@ package com.qa.startworld;
 public class Constructor {
 	
 	public static void main(String[] args) {
-		Person per = new Person("milo", 18, "male");
-		Book book = new Book("title", 16, "Edition");
-		
-		System.out.print(book);
 		
 
 	}
@@ -47,12 +43,7 @@ public class Constructor {
 			return walkSpeed;
 		}
 		
-		public void book(String title, String author, int pages, String genre) {
-			this.title = title;
-			this.author = author;
-			this.pages = pages;
-			this.genre = genre;
-		}
+	
 	}
 	
 	public class Book {
@@ -80,6 +71,32 @@ public class Constructor {
 	    public void close() {
 	        this.isOpen = false;
 	    }
+	    
+	    public String getTitle() {
+			return title;
+		}
+
+		public void setTitle(String title) {
+			this.title = title;
+		}
+
+		public String getEdition() {
+			return edition;
+		}
+		
+		public void setEdition(String edition) {
+			this.edition = edition;
+		}
+
+		public int getPageCount() {
+			return pageCount;
+		}
+
+		public void setPageCount(int pageCount) {
+			this.pageCount = pageCount;
+		}
+	    
+	    
 	}
 
 	
