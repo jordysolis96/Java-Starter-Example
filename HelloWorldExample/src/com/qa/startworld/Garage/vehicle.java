@@ -1,4 +1,4 @@
-package com.qa.startworld.Vehicle;
+package com.qa.startworld.Garage;
 
 public class vehicle {
 	

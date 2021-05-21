@@ -1,6 +1,6 @@
-package com.qa.startworld.Vehicle;
+package com.qa.startworld.Garage;
 
-import com.qa.startworld.Vehicle.vehicle.Vehicle;
+import com.qa.startworld.Garage.vehicle.Vehicle;
 
 public class Car extends Vehicle{
 
