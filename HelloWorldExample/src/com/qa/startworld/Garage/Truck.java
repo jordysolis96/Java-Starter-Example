@@ -10,8 +10,8 @@ public class Truck extends Vehicle{
 		private int year;
 		private Boolean camper;
 		
-		public Truck(String make, String model, int year, String color, Boolean camper) {
-			super(make, model);
+		public Truck(String make, String model, int year, String color, Boolean camper, int id) {
+			super(make, model, id);
 			this.color = color;
 			this.year = year;
 			this.camper = camper;

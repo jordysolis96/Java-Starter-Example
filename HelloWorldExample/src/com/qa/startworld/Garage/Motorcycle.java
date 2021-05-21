@@ -10,8 +10,8 @@ public class Motorcycle extends Vehicle{
 		private Boolean dirt;
 
 		
-		public Motorcycle(String make, String model, int year, String color, Boolean sports, Boolean dirt) {
-			super(make, model);
+		public Motorcycle(String make, String model, int year, String color, Boolean sports, Boolean dirt, int id) {
+			super(make, model, id);
 			this.color = color;
 			this.year = year;
 			this.sports = sports;
