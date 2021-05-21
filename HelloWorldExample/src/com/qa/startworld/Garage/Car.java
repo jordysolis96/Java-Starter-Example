@@ -8,8 +8,8 @@ public class Car extends Vehicle{
 	private String color;
 	private int year;
 	
-	public Car(String make, String model, int year, String color) {
-		super(make, model);
+	public Car(String make, String model, int year, String color, int id) {
+		super(make, model, id);
 		this.color = color;
 		this.year = year;
 	}
