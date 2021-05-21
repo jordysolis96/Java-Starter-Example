@@ -10,7 +10,7 @@ public class Trainee extends Person{
 	private double bursary;
 	private List<String> subjectsLearned = new ArrayList<>();
 	
-	public Trainee(String name, int age, String gender, double bursary) {
+	public Trainee(String name, double bursary, int age, String gender) {
 		super(name, age, gender);
 		this.bursary = bursary;
 	}
